@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica HTML - Pedir</title>
+    <!-- LINK CSS -->
+    <link rel="stylesheet" href="css/mobile/pedir.css">
+    <link rel="stylesheet" href="css/tablet/pedir.css" media="only screen and (min-width: 426px)">
+    <link rel="stylesheet" href="css/desktop/pedir.css" media="only screen and (min-width: 768px)">
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/4ab0920d10.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a class="header__brand" href="index.html">
+            <figure class="header__brand__figure">
+                <img class="img--large" src="assets/icons/Pasteleria.png" alt="icon--brand">
+            </figure>
+        </a>
+        <nav class="header__nav">
+            <ul class="header__nav__ul">
+                <li class="header__nav__ul__li">
+                    <a class="header__nav__ul__li__a" href="pedir.html">
+                        Pedir
+                    </a>
+                </li>
+                <li class="header__nav__ul__li">
+                    <a class="header__nav__ul__li__a" href="index.html">
+                        Inicio
+                    </a>
+                </li>
+                <li class="header__nav__ul__li">
+                    <a class="header__nav__ul__li__a" href="admin.html">
+                        Admin
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h2 class="main__title">
+            Has tu pedido Aquí
+        </h2>
+        <form class="main__form" action="#">
+            <label class="tipoPastel" for="tipoPastel">Elige el tipo de Producto que deseas.
+                <select class="tipoPastel__select" name="tipoPastel" id="tipoPastel">
+                    <option value="value1" selected>Pastel</option>
+                    <option value="value2">Cheesecake</option>
+                    <option value="value3">Pastel de Frutas</option>
+                    <option value="value4">Cupcake</option>
+                    <option value="value5">Pastel de Bodas</option>
+                </select>
+            </label>
+            <fieldset class="fieldset--decor">
+                <legend class="fieldset--decor__title">
+                   Elige Las Decoraciones que deseas
+                </legend>
+                <ul class="fieldset--decor__ul">
+                   <li class="fieldset--decor__ul__li">
+                       <label class="fieldset--decor__ul__li__label" for="gomitas">Gomitas
+                           <input type="checkbox" name="gomitas" id="gomitas">
+                       </label>
+                   </li>
+                   <li class="fieldset--decor__ul__li">  
+                       <label class="fieldset--decor__ul__li__label" for="helado">Helado
+                           <input type="checkbox" name="helado" id="helado">
+                       </label>
+                   </li>
+                   <li class="fieldset--decor__ul__li">
+                       <label class="fieldset--decor__ul__li__label" for="caramelos">Caramelos
+                           <input type="checkbox" name="caramelos" id="caramelos">
+                       </label>
+                   </li>
+                   <li class="fieldset--decor__ul__li">
+                       <label class="fieldset--decor__ul__li__label" for="ninguna">Ninguna
+                           <input type="checkbox" name="ninguna" id="ninguna">
+                       </label>
+                   </li>
+                </ul>
+          </fieldset>
+           <fieldset class="fieldset--decor">
+                 <legend class="fieldset--decor__title"> 
+                    Elige el sabor del producto(Puedes elegir más de uno)
+                 </legend>
+                 <ul class="fieldset--decor__ul">
+                    <li>
+                        <label for="chocolate">Chocolate
+                            <input type="checkbox" name="chocolate" id="chocolate">
+                        </label>
+                    </li>
+                    <li>
+                        <label for="vainilla">vainilla
+                            <input type="checkbox" name="vainilla" id="vainilla">
+                        </label>
+                    </li>
+                    <li>
+                        <label for="limon">Limon
+                            <input type="checkbox" name="limon" id="limon">
+                        </label>
+                    </li>
+                    <li>
+                        <label for="caramelo">Caramelo
+                            <input type="checkbox" name="caramelo" id="caramelo">
+                        </label>
+                    </li>
+                 </ul>
+           </fieldset>
+           <label class="form__info" for="nombre">Escriba su nombre
+                 <input type="text" name="nombre" id="nombre">
+           </label>
+           <label class="form__info" for="direccion">Escriba la dirección de entrega
+                 <input type="text" name="direccion" id="direccion">
+           </label>
+           <label class="form__info" for="telefono">Escriba un número de contacto
+                 <input type="tel" name="telefono" id="telefono">
+           </label>
+           <button class="form__button" type="submit">
+                 Completar Compra 
+           </button>
+        </form>
+    </main>
+    <footer>
+        <figure class="footer__figure">
+            <img class="img--large radius-100" src="assets/icons/Pasteleria.png" alt="icon--brand">
+        </figure>
+        <address class="footer__address">
+            2022-Kevin Narvaez
+        </address>
+        <div class="footer__container">        
+            <a class="footer__container__link" href="">
+                Terminos y Condiciones
+            </a>
+            <a class="footer__container__link" href="">
+                Cookies
+            </a>
+        </div>
+    </footer>
+</body>
+</html>

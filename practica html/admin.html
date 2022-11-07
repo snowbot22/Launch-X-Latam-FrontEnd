@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica HTML - Admin</title>
+    <!-- LINK CSS -->    
+    <link rel="stylesheet" href="css/desktop/admin.css" media="only screen and (min-width: 768px)">
+    <link rel="stylesheet" href="css/tablet/admin.css" media="only screen and ( min-width: 426px) and (max-width:767px)">
+    <link rel="stylesheet" href="css/mobile/admin.css" media="only screen and (max-width:425px)"> 
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/4ab0920d10.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <a class="header__brand" href="index.html">
+            <figure class="header__brand__figure">
+                <img class="img--large" src="assets/icons/Pasteleria.png" alt="icon--brand">
+            </figure>
+        </a>
+        <nav class="header__nav">
+            <ul class="header__nav__ul">
+                <li class="header__nav__ul__li">
+                    <a class="header__nav__ul__li__a" href="pedir.html">
+                        Pedir
+                    </a>
+                </li>
+                <li class="header__nav__ul__li">
+                    <a class="header__nav__ul__li__a" href="index.html">
+                        Inicio
+                    </a>
+                </li>
+                <li class="header__nav__ul__li">
+                    <a class="header__nav__ul__li__a" href="admin.html">
+                        Admin
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2 class="section--1__title">
+                Control de Sabores de Pasteles 
+            </h2>
+            <table class="section__table">
+                <thead>
+                    <tr>
+                        <th class="section__table__th">
+                            ID
+                        </th>
+                        <th class="section__table__th">
+                            Nombre
+                        </th>
+                        <th class="section__table__th">
+                            Cantidad Inicial
+                        </th>
+                        <th class="section__table__th">
+                            Cantidad Usada
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="section__table__td">
+                            1
+                        </td>
+                        <td class="section__table__td">
+                            Chocolate
+                        </td>
+                        <td class="section__table__td">
+                            100
+                        </td>
+                        <td class="section__table__td">
+                            20
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="section__table__td">
+                            2
+                        </td>
+                        <td class="section__table__td">
+                            vainilla
+                        </td>
+                        <td class="section__table__td">
+                            100
+                        </td>
+                        <td class="section__table__td">
+                            10
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="section__table__td">
+                            3
+                        </td>
+                        <td class="section__table__td">
+                            Limón
+                        </td>
+                        <td class="section__table__td">
+                            50
+                        </td>
+                        <td class="section__table__td">
+                            30
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="section__table__td">
+                            4
+                        </td>
+                        <td class="section__table__td">
+                            Caramelo
+                        </td>
+                        <td class="section__table__td">
+                            50
+                        </td>
+                        <td class="section__table__td">
+                            40
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section>
+            <h2 class="section--2__title">
+                Control de Decoraciones
+            </h2>
+            <table class="section__table">
+                <thead>
+                    <tr>
+                        <th class="section__table__th">
+                            ID
+                        </th>
+                        <th class="section__table__th">
+                            Nombre
+                        </th>
+                        <th class="section__table__th">
+                            Cantidad Inicial
+                        </th>
+                        <th class="section__table__th">
+                            Cantidad Usada
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="section__table__td">
+                            1
+                        </td>
+                        <td class="section__table__td">
+                            Gomitas
+                        </td>
+                        <td class="section__table__td">
+                            200
+                        </td>
+                        <td class="section__table__td">
+                            20
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="section__table__td"> 
+                            2
+                        </td>
+                        <td class="section__table__td">
+                            Helado
+                        </td>
+                        <td class="section__table__td">
+                            100
+                        </td>
+                        <td class="section__table__td">
+                            50
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="section__table__td">
+                            3
+                        </td>
+                        <td class="section__table__td">
+                            Caramelos
+                        </td>
+                        <td class="section__table__td">
+                            150
+                        </td>
+                        <td class="section__table__td">
+                            30
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+        <section class="section--3">
+            <h2 class="section--3__title">
+                Listado de Pedidos
+            </h2>
+            <table class="section__table">
+                <thead>
+                    <tr>
+                        <th class="section__table__th">
+                            ID
+                        </th>
+                        <th class="section__table__th">
+                            Nombre
+                        </th>
+                        <th class="section__table__th">
+                            Dirección
+                        </th>
+                        <th class="section__table__th">
+                            Teléfono
+                        </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td class="section__table__td">
+                            1
+                        </td>
+                        <td class="section__table__td">
+                            Ana Perez
+                        </td>
+                        <td class="section__table__td">
+                            Calle C 
+                        </td>
+                        <td class="section__table__td">
+                            23454343
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <footer>
+        <figure class="footer__figure">
+            <img class="img--large radius-100" src="assets/icons/Pasteleria.png" alt="icon--brand">
+        </figure>
+        <address class="footer__address">
+            2022-Kevin Narvaez
+        </address>
+        <div class="footer__container">        
+            <a class="footer__container__link" href="">
+                Terminos y Condiciones
+            </a>
+            <a class="footer__container__link" href="">
+                Cookies
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
