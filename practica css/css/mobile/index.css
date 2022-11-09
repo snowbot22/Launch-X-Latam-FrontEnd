@@ -240,6 +240,22 @@ header{
     font-weight: bold;
 }
 /*
+*SECTION--2
+*/
+.section--2{
+    width: 100%;
+    padding: 0rem 0 4rem;
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    gap: 5rem;
+}
+.section--2 figure{
+    width: 30%;
+    height: 30px;
+    max-width: 200px;
+}
+/*
 *STATES
 */
 .hidden{
