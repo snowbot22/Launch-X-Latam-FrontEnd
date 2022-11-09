@@ -191,14 +191,14 @@ header{
 }
 .section--1__overlay__title__figure{
     width: 10%;
-    background-color: azure;
+    background-color: rgb(150, 235, 235);
     height: 30px;
     display: grid;
     place-content: center;
     border-radius: 1rem;
 }
 .section--1__overlay__title__figure i {
-    color: blue;
+    color: rgb(41, 82, 196);
 }
 .section--1__overlay__container{
     background-color: #e7e7e7;
@@ -232,7 +232,7 @@ header{
     font-weight: bolder;
 }
 .section--1__overlay__container__card__title__figure{
-    background-color: azure;
+    background-color: rgb(150, 235, 235);
     height: 27px;
     width: 25px;
     display: grid;
@@ -240,7 +240,7 @@ header{
     border-radius: 1rem;
 }
 .section--1__overlay__container__card__title__figure i {
-    color: blue;
+    color: rgb(41, 82, 196);
 }
 .section--1__overlay__container__button{
     width: 120px;
@@ -273,6 +273,66 @@ header{
     place-content: center;
 }
 
+/*
+*SECTION 3 
+*/
+.section--3{
+    display: flex;
+    flex-flow: column nowrap;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+.section--3__text{
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+}
+.section--3__text__title{
+    font-size: 2.5rem;
+    color: #1F3E72;
+}
+.section--3__text__p{
+    font-size: 1.6rem;
+    line-height: 2.6rem;
+    color: #8692A6;
+}
+.section--3__container{
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 2rem 0;
+    gap: 1.5rem;
+    align-items: center;
+}
+.section--3__container__card{
+    background-color: #e7e7e7;
+    text-align: start;
+    padding: 2rem;
+    display: flex;
+    flex-flow: column nowrap;
+    gap: 1rem;
+    border-radius: .5rem;
+    max-width: 400px;
+}
+.section--3__container__card__figure{
+    background-color: rgb(150, 235, 235);
+    height: 33px;
+    width: 33px;
+    display: grid;
+    place-content: center;
+    border-radius: 1rem;
+}
+.section--3__container__card__figure i {
+    color: #323FB5;
+}
+.section--3__container__card__title{
+    color: #323FB5;
+    font-size: 2rem;
+    font-weight: 500;
+}
+.section--3__container__card__p{
+    color: #717E96;
+    line-height: 2.4rem;
+}
 
 /*
 *STATES
