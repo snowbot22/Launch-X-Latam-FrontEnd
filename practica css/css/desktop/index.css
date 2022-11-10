@@ -560,6 +560,7 @@ footer{
     gap: 1rem;;
     width: 100%;
     padding: 0 2rem;
+    max-width: 1000px;
 }
 .footer__head__vacc{
     display: flex;
@@ -603,6 +604,7 @@ footer{
     gap: .7rem;
     padding: 0 2rem;
     justify-content: space-between;
+    max-width: 1000px;
 }
 .footer__end__address{
     font-style: normal;
