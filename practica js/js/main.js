@@ -3,7 +3,7 @@ let outputImg= document.getElementById("outputImg");
 let inputPokemon= document.getElementById("name");
 let button= document.getElementById("pkmButton");
 let outputName= document.getElementById("outputName");
-
+let outputTypeName= document.getElementById("output-type-name");
 
 
 //FETCHIN POKEAPI
@@ -28,8 +28,9 @@ function showValue () {
             if(data){
                 console.log(data);
                 outputImg.src=data.sprites.other["official-artwork"].front_default;
-                outputName.innerText=data.name.replace( data.name[0], data.name[0].toUpperCase() )
-                stats(data) 
+                outputName.innerText=data.name.replace( data.name[0], data.name[0].toUpperCase() );
+                stats(data);
+                type(data);
             }
         } )
     }
@@ -75,5 +76,14 @@ let stats =(data)=>{
     outputStatsContent5.innerText= data.stats[4].base_stat;
     outputStatsContent6.innerText= data.stats[5].base_stat;
 
-}
+};
+
+//SHOWIN PKM TYPE
+
+let type = (data) =>{
+    outputTypeName.innerText=data.types[0].type.name.replace( data.types[0].type.name[0],data.types[0].type.name[0].toUpperCase() );
+    let typeUrl= data.types[0].type.url;
+    console.log(typeUrl);
+
+} 
 
