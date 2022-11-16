@@ -17,4 +17,8 @@ https://miro.com/app/board/uXjVPCkt4vw=/
 
 ### 4.Wireframe UX
 
+Mapa Web: 
+![mapa-web](https://user-images.githubusercontent.com/102496789/202296032-e29b067d-a762-4d21-8fc7-928bfd4d9dff.jpg)
+
+
 ### 5.Wireframe UI
