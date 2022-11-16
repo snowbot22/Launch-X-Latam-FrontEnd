@@ -10,6 +10,9 @@
 
 ### 3.Público Objetivo
 
+![publico-objetivo](https://user-images.githubusercontent.com/102496789/202279459-ec937ef1-5fb5-43e8-8a72-3b8327531010.png)
+
+Link de la pizarra:
 https://miro.com/app/board/uXjVPCkt4vw=/
 
 ### 4.Wireframe UX
