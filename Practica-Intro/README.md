@@ -4,6 +4,13 @@
 
 ### 1.Toma de requerimientos
 
+#### Requerimientos del Cliente
+
+-Tener una web responsiva.
+-La página debe tener métodos de pago.
+-La página debe estar lista hasta Diciembre.
+-Los botones deben estar a corde con azul marino y blanco.
+
 ### 2.Buyer Persona
 
 ![Juan Pérez](https://user-images.githubusercontent.com/102496789/202271928-c0cf03f4-9e51-4e09-ad59-cd92a438bcdd.jpg)
