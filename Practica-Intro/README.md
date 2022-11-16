@@ -7,8 +7,11 @@
 #### Requerimientos del Cliente
 
 -Tener una web responsiva.
+
 -La página debe tener métodos de pago.
+
 -La página debe estar lista hasta Diciembre.
+
 -Los botones deben estar a corde con azul marino y blanco.
 
 ### 2.Buyer Persona
