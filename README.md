@@ -15,4 +15,4 @@ En este repositorio se encuentran las prácticas de la misión Frontend de Launc
 
 -CSS: https://snowbot22.github.io/practica-CSS.github.io/
 
--JS: snowbot22.github.io/practica-Js.github.io/
+-JS: [snowbot22.github.io/practica-Js.github.io/](https://snowbot22.github.io/practica-Js.github.io/)
